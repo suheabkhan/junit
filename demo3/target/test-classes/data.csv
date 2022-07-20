@@ -1,0 +1,6 @@
+﻿input,expected
+10,even
+20,even
+23,odd
+35,odd
+90,even

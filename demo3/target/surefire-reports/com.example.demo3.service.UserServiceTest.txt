@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.example.demo3.service.UserServiceTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 1, Skipped: 0, Time elapsed: 0.112 s <<< FAILURE! - in com.example.demo3.service.UserServiceTest
+testhideNamePrivatemethodWithMock  Time elapsed: 0.092 s  <<< ERROR!
+java.lang.reflect.InaccessibleObjectException: Unable to make protected native java.lang.Object java.lang.Object.clone() throws java.lang.CloneNotSupportedException accessible: module java.base does not "opens java.lang" to unnamed module @7791a895
+	at com.example.demo3.service.UserServiceTest.testhideNamePrivatemethodWithMock(UserServiceTest.java:47)
+
+testGetNameByUserId  Time elapsed: 0.019 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <Nick> but was: <John>
+	at com.example.demo3.service.UserServiceTest.testGetNameByUserId(UserServiceTest.java:26)
+
